@@ -6,7 +6,7 @@
   --color-red: #e11b22;
   --color-light-gray: #e5e5e5;
   --color-white: #ffffff;
-  --color-black: #383838;
+  --color-black: #000000;
   --text-dark-red: #797979;
   --text-light-gray: #c4c4c4;
   --bg-red: #dd7e92;
@@ -100,6 +100,10 @@ footer {
   height: 62px;
 }
 
+iframe {
+  width: 38rem;
+}
+
 #cod .cod-container {
   display: flex;
   flex-direction: column;
@@ -177,6 +181,14 @@ footer {
   padding-bottom: 8px;
 }
 
+.movie-marcelo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
 .btn-read {
   background-color: var(--bg-gray);
   font-weight: 700;
@@ -246,6 +258,11 @@ footer {
   max-height: 242px;
 }
 
+.curso-image2 {
+  max-width: 242px;
+  padding-top: 20px;
+}
+
 .curso-title {
   color: var(--color-black);
   font-size: 18px;
@@ -271,7 +288,7 @@ footer {
 
 .curso-rate {
   color: var(--color-red);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 700;
 }
 
@@ -550,8 +567,15 @@ footer {
   .footer-rights {
     margin: 0;
   }
+
 }
 
+@media (max-width: 600px) {
+
+  iframe{
+    width: 100%;
+  }
+}
 /* subscription */
 
 #container-subscription {
