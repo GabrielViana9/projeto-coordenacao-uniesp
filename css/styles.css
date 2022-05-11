@@ -580,11 +580,16 @@ iframe {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
 
   iframe{
     width: 100%;
   }
+  
+  table {
+    width: 100%;
+  }
+
 }
 /* subscription */
 
