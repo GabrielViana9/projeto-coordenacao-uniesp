@@ -582,7 +582,7 @@ iframe {
 
 @media (max-width: 680px) {
 
-  iframe{
+  iframe {
     width: 100%;
   }
   
@@ -601,6 +601,11 @@ iframe {
   text-align: center;
   display: block;
   padding-top: 400px;
+}
+
+#container-subscription a{
+  padding: 30px;
+  border-radius: 8px;
 }
 
 #container-subscription a:hover{
