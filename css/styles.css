@@ -35,6 +35,10 @@ a:hover {
   color: unset;
 }
 
+table {
+  width: 38rem;
+}
+
 footer {
     background-color: var(--color-black);
     height: 302px;
@@ -434,6 +438,12 @@ iframe {
   align-items: center;
 }
 
+.spans-diferenciais {
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+
 
 @media (min-width: 966px) {
   :root {
@@ -591,4 +601,29 @@ iframe {
 #container-subscription a:hover{
   background-color: var(--color-red);
   color: var(--color-black);
+}
+
+/* Table */
+
+.tt-cart-table table thead tr th {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+  background-color: var(--bg-gray);
+	color: var(--color-black);
+	letter-spacing: 0.3px;
+	padding: 5px 25px;
+}
+.tt-cart-table table tbody tr th {
+  background-color: var(--bg-gray);
+	padding: 0 25px;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: var(--text-dark-red);
+  border: 1px solid var(--text-dark-red);
+}
+
+.th-separador{
+  height: 20px;border: none;
 }
